@@ -1,0 +1,167 @@
+<!--
+  Generated template for the Part3 page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Octopus 900 - Part 3</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-slides pager id="slides">
+    <ion-slide>
+      <div class="container">
+        <ion-list no-lines>
+          <h4>Content</h4>
+          <ion-item (click)="goToSlide(slides,1)">Low resolution of perimetric testing</ion-item>
+          <ion-item (click)="goToSlide(slides,3)">Light sensitivity</ion-item>
+          <ion-item (click)="goToSlide(slides,4)">The effects of age and test location</ion-item>
+          <ion-item (click)="goToSlide(slides,7)">Objectivity, subjectivity and normal fluctuation</ion-item>
+          <ion-item (click)="goToSlide(slides,9)">The frequency-of-seeing curve</ion-item>
+          <ion-item (click)="goToSlide(slides,11)">Summary</ion-item>
+          <ion-item (click)="goToSlide(slides,12)">Further reading</ion-item>
+          <ion-item (click)="goToSlide(slides,13)">Quick quiz</ion-item>
+        </ion-list>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Low resolution of perimetric testing</h4>
+        <p>It’s impractical to test every location in the visual field so perimetry has <b>low spatial resolution.</b></p>
+        <p>It’s also impractical to test using each possible light intensity so <b>luminance resolution is also low.</b></p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+        <div id="wrapper">
+          <div class="container">
+            <h4>Low resolution of perimetric testing</h4>
+            <p>Ideally, the hill of vision would be drawn from an <b>infinite number of test locations.</b></p>
+            <p>Like pixels in a digital camera sensor, the <b>greater the number of test locations</b> in a visual field test
+              the
+              <b>higher the special resolution.</b></p>
+            <p>Practicalities mean that only <b>sampling a limited number of locations</b> is possible.</p>
+            <img class="img" src="assets/img/3.1.png" />
+          </div>
+        </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div id="wrapper2">
+        <div class="container">
+          <h4>Light sensitivity</h4>
+          <p>Similarly, the hill of vision would be drawn from a <b>stimulus of continuously changing luminance.</b></p>
+          <p>However, <b>time constraints</b> in particular make this approach impractical, so again as with the number of stimuli
+            locations,
+            <b>only some luminance levels</b> are included in the test.</p>
+          <img class="img" src="assets/img/3.2.png" />
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The effects of age and test location</h4>
+        <p>It has already been established that normal sensitivity thresholds depend on the test location, with <b>sensitivity higher in the centre than in the periphery.</b></p>
+        <p>Because normal <b>sensitivity to light decreases with increasing age</b> the hill of vision is also affected by age.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The effects of age and test location</h4>
+        <p>Therefore, the normal hill of vision is <b>higher in a 20 year old than in an 85 year old.</b></p>
+        <p>Such patient specific factors mean that sensitivity thresholds are difficult to interpret.</p>
+        <p>Normal reference values (<b>normative database</b>) are used to aid clinical visual field interpretation.</p>
+        <img class="img" src="assets/img/3.3.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The effects of age and test location</h4>
+        <p>Values for <b>each age group and test location</b> are included in a normative database.</p>
+        <p>The <b>normative value</b> is compared with the <b>measured value</b> for a given age group at each location.</p>
+        <p>The difference describes the <b>loss in sensitivity</b> and is referred to as the <b>deviation or defect.</b></p>
+        <img class="img" src="assets/img/3.4.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Objectivity, subjectivity and normal fluctuations</h4>
+        <p>In terms of equipment and test conditions perimetry is regarded as <b>an objective process.</b></p>
+        <p>The patient does however introduce a <b>subjective element.</b></p>
+        <p>As a result there are always <b>fluctuations among different normal individuals</b> and between <b>different measurements of the same individual over a short period of time.</b></p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Objectivity, subjectivity and normal fluctuations</h4>
+        <p>The likelihood of seeing or not seeing a stimulus is <b>probabilistic.</b></p>
+        <p>As the <b>luminance increases</b>, there is a gradual <b>increase from “unseen” to “seen” responses.</b></p>
+        <p>The <b>frequency-of-seeing (FOS)</b> curve is used to <b>measure fluctuations objectively.</b></p>
+        <img class="img" src="assets/img/3.5.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The frequency-of-seeing curve</h4>
+        <p><b>Normal fluctuation is not distributed in a uniform way</b> across the visual field.</p>
+        <p>They tend to be <b>smaller at the centre</b> of the visual field and in <b>areas of good vision</b> when compared
+          to areas of poor vision.</p>
+        <p>The probability of an individual perceiving a stimulus <b>changes gradually from 0% to 100%.</b></p>
+        <p>So sensitivity thresholds are defined as the stimulus luminance that is perceived with a <b>probability of 50%.</b></p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div id="wrapper3">
+        <div class="container">
+          <h4>The frequency-of-seeing curve</h4>
+          <p>The <b>FOS curve</b> provides the scientific definition of a <b>light sensitivity threshold while taking fluctuation into account.</b></p>
+          <p>It shows the <b>probability</b> of perceiving a certain stimulus luminance.</p>
+          <p>The <b>light sensitivity threshold</b> is defined as the stimulus luminance that can be seen <b>50% of the time.</b></p>
+          <p><b>Fluctuation is quantified</b> as the range of luminance at which the probability of seeing the stimulus is 0%
+            to the luminance at which the probability of seeing the stimulus is 100%.</p>
+          <img class="img" src="assets/img/3.6.png" />
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Summary</h4>
+        <p>Perimetry has low spatial and luminance resolution because it’s impractical to test every location in the visual
+          field with every possible light intensity.</p>
+        <p>Practicalities mean that only a limited number of sample locations and light intensities are possible.</p>
+        <p>Normal sensitivity to light decreases with increasing age.</p>
+        <p>A normative database is employed to aid clinical visual field interpretation.</p>
+        <p>The difference between the measured sensitivity and the normative value is the deviation or defect.</p>
+        <p>The frequency-of-seeing (FOS) curve is used to objectively measure fluctuations introduced by the subject.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Further reading</h4>
+        <h6>Mandatory</h6>
+        <p>Please read pages 17 to 22 in chapter two of The Visual Field Digest before completing this course.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <h2>Quick quiz</h2>
+      <button ion-button id="btnQuiz1" large color="primary" (click)="viewQuizPage(item)">Start</button>
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>

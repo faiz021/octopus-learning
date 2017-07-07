@@ -1,0 +1,157 @@
+<!--
+  Generated template for the Part2 page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Octopus 900 - Part 2</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-slides pager id="slides">
+    <ion-slide>
+      <div class="container">
+        <ion-list no-lines>
+          <h4>Content</h4>
+          <ion-item (click)="goToSlide(slides,1)">Abnormal sensitivity to light</ion-item>
+          <ion-item (click)="goToSlide(slides,3)">The perimetric test</ion-item>
+          <ion-item (click)="goToSlide(slides,6)">Sensitivity threshold</ion-item>
+          <ion-item (click)="goToSlide(slides,7)">The decibel scale</ion-item>
+          <ion-item (click)="goToSlide(slides,8)">Graphic display of the sensitivity threshold</ion-item>
+          <ion-item (click)="goToSlide(slides,10)">Summary</ion-item>
+          <ion-item (click)="goToSlide(slides,11)">Further reading</ion-item>
+          <ion-item (click)="goToSlide(slides,12)">Quick quiz</ion-item>
+        </ion-list>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Abnormal sensitivity to light</h4>
+        <p><b>Deviations</b> from the normal hill of vision can be used to identify the shape of visual loss.</p>
+        <p><b>Constricted boundaries or depressions of sensitivity</b> indicate deviations from normal.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Abnormal sensitivity to light</h4>
+        <p>In normal eyes sensitivity is <b>highest in the central area</b>, gradually dropping towards the periphery - <b>the normal hill of vision</b>.</p>
+        <p>Pathologies affecting sensitivity to light create deviations (<b>depressions and boundary constrictions</b>) in the
+          hill of vision.</p>
+        <p>This results in the <b>pathological hill of vision</b>.</p>
+        <img class="img" src="assets/img/2.1.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The perimetric test</h4>
+        <p>A <b>hemispheric cupola</b> is used to project <b>light stimuli</b> across the visual field.</p>
+        <p>The <b>stimuli</b> and the <b>background</b> they are projected onto are <b>highly standardised</b>.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The perimetric test</h4>
+        <p>The concave surface of the hemispheric cupola has a <b>standardised uniform white background</b>.</p>
+        <p>Light stimuli are standardised in terms of <b>shape, size, colour, light intensity and duration</b>.</p>
+        <p><b>Round white stimulus</b>, brighter than the background are most commonly used.</p>
+        <img class="img" src="assets/img/2.2.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The perimetric test</h4>
+        <p>The subject sits in front of the cupola with their <b>head stabilised</b>.</p>
+        <p>They then <b>fixate on a central target</b>.</p>
+        <p>Each time a stimulus is seen, the subject presses a <b>response button</b>.</p>
+        <img class="img" src="assets/img/2.3.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Sensitivity threshold</h4>
+        <p>The subject is shown stimuli of <b>increasing levels of intensity</b>.</p>
+        <p>When the stimulus reaches a level that the subject can see the intensity level is recorded.</p>
+        <p>This minimum level defines the subject’s <b>sensitivity to light</b>.</p>
+        <p>This point between seeing and not seeing is described as the <b>sensitivity threshold</b>.</p>
+        <img class="img" src="assets/img/2.4.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>The decibel scale</h4>
+        <p>Perimetry testing uses the <b>decibel scale</b>.</p>
+        <p>The unit of measurement in perimetry is therefore the <b>decibel (dB)</b>.</p>
+        <p>The decibel range in perimetry is typically <b>0 dB to approximately 32 dB at the fovea</b> (in a 20 year old with
+          normal vision).</p>
+        <p>A sensitivity threshold of <b>0 dB means a person is unable to see the brightest stimuli</b>.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div id="wrapper4">
+        <div class="container">
+          <h4>Graphic display</h4>
+          <p>As in geographical maps an individuals various sensitivity thresholds can be displayed <b>numerically</b>.</p>
+          <p>Absolute defects are represented by a </p>
+          <img class="img" src="assets/img/2.5.1.png" />
+          <p>This illustration features the visual field of a left eye.</p>
+          <img class="img" src="assets/img/2.5.png" />
+        </div>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Graphic display</h4>
+        <p>Colour coding can also be used to represent the different sensitivity thresholds.</p>
+        <p>This approach is often referred to as grey scale</p>
+        <p>Sensitivity threshold is represented as follows</p>
+        <img class="img" src="assets/img/2.6.png" />
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Summary</h4>
+        <p>Deviations from the normal hill of vision identify the shape of visual loss.</p>
+        <p>In perimetry testing standardised stimuli are projected in a hemispheric cupola across an individual’s visual field.</p>
+        <p>Subjects are shown stimuli of increasing intensity at different points to identify their sensitivity threshold.</p>
+        <p>The unit of measurement in perimetry is the decibel (dB).</p>
+        <p>Graphic representations of the sensitivity threshold include numerical and grey scale.</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <div class="container">
+        <h4>Further reading</h4>
+        <h6>Mandatory</h6>
+        <p>Please read pages 11 to 16 in chapter two of The Visual Field Digest before completing this course.</p>
+        <h6>Optional</h6>
+        <p>Zulauf M. Normal visual fields measured with Octopus Program G1. I. Differential light sensitivity at individual
+          test locations. Graefes Arch Clin Exp Ophthalmol. 1994;232:509-515</p>
+        <p>Zulauf M, LeBlanc RP, Flammer J. Normal visual fields measured with Octopus-Program G1. II. Global visual field indices.
+          Graefes Arch Clin Exp Ophthalmol. 1994;232:516-522</p>
+      </div>
+    </ion-slide>
+
+    <ion-slide>
+      <h2>Quick quiz</h2>
+      <button ion-button id="btnQuiz1" large color="primary" (click)="viewQuizPage(item,2)">Start</button>
+    </ion-slide>
+  </ion-slides>
+
+
+</ion-content>

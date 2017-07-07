@@ -1,0 +1,67 @@
+@font-face{
+    font-family:'vectora';
+    src: url('../assets/fonts/Vectora_LH_45_Light.ttf')format('truetype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family:'vectoraBold';
+    src: url('../assets/fonts/Vectora_LH_75_Bold.ttf')format('truetype');
+    font-weight: normal;
+}
+
+h4, h3 {
+    font-family: 'vectoraBold';
+}
+
+h6, h4, p, ion-item{
+    text-align: left;
+}
+
+p, ion-item, button{
+    font-family: 'vectora';
+}
+
+p, ion-item, ion-title{
+    font-size: 14px;
+}
+
+ion-slides{
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    zoom: true;
+}
+
+/*.slide-zoom {
+    display: block;
+    width: 100%;
+    text-align: center;
+}*/
+
+.bar-buttons-ios {
+    position: absolute;
+right: 10px;
+}
+
+/*SCROLL-CONTENT {
+	overflow-y: auto !important;
+}
+*/
+/*.swiper-slide {
+    overflow-y: scroll;
+    display: block;
+}*/

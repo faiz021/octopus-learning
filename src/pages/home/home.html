@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Home</ion-title>
+    <ion-buttons menuToggle icon-only start (click)="userDetailsPage()">
+      <button ion-button menuToggle icon-only>
+      <ion-icon name='person'></ion-icon>
+    </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card color="lightgray" (click)="viewContent1(item)">
+    <ion-card-header color="primary">Octopus 900 Training Part 1</ion-card-header>
+    <ion-card-content>
+      Perimetry Basics
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="lightgray" (click)="viewContent2(item)">
+    <ion-card-header color="primary">Octopus 900 Training Part 2</ion-card-header>
+    <ion-card-content>
+      Measuring Sensivity To Light</ion-card-content>
+  </ion-card>
+
+  <ion-card color="lightgray" (click)="viewContent3(item)">
+    <ion-card-header color="primary">Octopus 900 Training Part 3</ion-card-header>
+    <ion-card-content>
+      Challenges In Visual Field Testing
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
